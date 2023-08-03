@@ -33,7 +33,7 @@ function PokemonDetails() {
         <div className="pokemon-details-wrapper" >
             <h1 id='pokedex-heading'>Pokedex</h1>
             <div className="pokemon-container">
-                <div className="pokemon-name" >Name : {pokemon.name}</div>
+                <div className="pokemon-name" > {pokemon.name}</div>
                 <img src={pokemon.image} alt="" className="pokemon-image" />
                 <div className="pokemon-body">
                     <div>Height: {pokemon.height}</div>

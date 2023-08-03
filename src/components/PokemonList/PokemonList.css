@@ -1,6 +1,4 @@
 .pokemon-list-container{
-    
-
     color:white;
     font-size: 18px;
     display: flex;
@@ -10,5 +8,5 @@
 }
 button{
     padding: 10px;
-    color: whitel;
+    color: white;
 }
