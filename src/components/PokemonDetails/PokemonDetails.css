@@ -23,8 +23,12 @@
     color:orange;
     text-align: center;
     letter-spacing: 5px;
-    font-size: 18.5px;;
+    font-size: 18.5px;
+    text-decoration: none;
 
+}
+Link{
+    text-decoration: none;
 }
 .pokemon-image{
     height: 20vh;
@@ -50,6 +54,7 @@
     color: white;
     text-transform: capitalize;
 }
+
 
 @media (width<=450px) {
     .pokemon-container{

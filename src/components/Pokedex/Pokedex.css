@@ -57,10 +57,11 @@
     /* letter-spacing: 2px; */
     /* border-bottom: 1px dashed #5b4436; */
     font-size: small;
+    
 }
 .pokemon-img{
-    width: 100px;;
-    height: 100px;
+    width: 150px;;
+    height: 150px;
     margin-top: 20px;
     align-self: center;
     justify-self: center;
