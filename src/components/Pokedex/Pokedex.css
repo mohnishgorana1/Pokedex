@@ -30,11 +30,13 @@
     height: 200px;
     width: 20vw;
     transition: 0.12s ease-out;
+    padding: 10px;
+    text-transform: capitalize;
 
 }
 .pokemons-containers:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 10px #4d478f;
+    box-shadow: 5px 5px 0px  #362d9b;
 }
 
 #pokemon-list-heading{
@@ -47,12 +49,12 @@
     justify-content: center;
     gap:30px;
     flex-wrap: wrap;
-    border: 1px solid red;;
+    /* border: 1px solid red;; */
 
 }
-
-.pokemons-container > .pokemon-name{
+.pokemon-name{
     text-transform: uppercase;
+    text-decoration: none;
     background-color: transparent ;
     /* letter-spacing: 2px; */
     /* border-bottom: 1px dashed #5b4436; */
